@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f5b3b3;
+}
+
+.container {
+  position: relative;
+}
+
+#icon {
+  font-size: 18rem;
+}
+
+#headsUp {
+  position: absolute;
+  top: -120px;
+  background: rgb(241, 4, 107);
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+#headsUp::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 45;
+  border: 15px solid transparent;
+  border-top: 15px solid rgb(241, 4, 107);
+}

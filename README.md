@@ -8,4 +8,4 @@
 
 ### Page link:
 
-https://HTML-CSS-cheers-notification/
+https://szuyuchen.github.io/HTML-CSS-cheers-notification/
